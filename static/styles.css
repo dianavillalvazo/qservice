@@ -82,3 +82,28 @@ footer a {
 footer a:hover {
     color: white;
 }
+
+@media (max-width: 575px) {
+    a.maps{
+        font-size: 18px;
+    }
+    .slider {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 768px) {
+    a.maps{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 990px) {
+    a.maps{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
