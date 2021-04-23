@@ -1,0 +1,84 @@
+:root{
+    --primary-color: #007AAC;
+    --secondary-color: #EE7021;
+    --third-color: #E73E16;
+    --background-color: #f5f5f5;    
+    --background-footer: #03548B;
+    --background-bottom: #042D49;
+}
+
+@font-face {
+    font-family: 'Bree';
+    src: url('./fonts/BreeRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Bree';
+}
+
+.logo {
+    padding: 10px;
+    max-width: 140px;
+}
+
+.slider {
+    width: 99vw;
+    margin-bottom: 20px;
+}
+
+.button1{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: var(--background-bottom) solid 1px;
+}
+
+.contact{
+    text-align: center;
+}
+
+form p{
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+a.maps{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 22px;
+}
+
+.bordered {
+    border: gray solid 1px !important;
+    border-radius: 20px;
+}
+
+.whats-app {
+    position: fixed;
+    border-radius: 50%;
+    bottom: 20px;
+    width: 70px;
+    right:20px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: var(--background-bottom);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+footer p{
+    padding-top: 10px;
+}
+footer a {
+    color: #00a79f;
+}
+
+footer a:hover {
+    color: white;
+}
