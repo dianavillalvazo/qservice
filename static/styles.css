@@ -1,10 +1,9 @@
 :root{
     --primary-color: #007AAC;
-    --secondary-color: #EE7021;
-    --third-color: #E73E16;
-    --background-color: #f5f5f5;    
-    --background-footer: #03548B;
+    --secondary-color: #EE7021;   
+    --third-color: #00a79f;
     --background-bottom: #042D49;
+    --orange-yellow: #F8AC00;
 }
 
 @font-face {
@@ -23,9 +22,78 @@
     max-width: 140px;
 }
 
+.menu a {
+    color: black;
+}
+
+.menu a:hover{
+    color: var(--primary-color)
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+#slider {
+    height: 80vw;
+    max-height: 949px;
+    max-width: 1500px;
+    background-image: url(http://qserviceexp.com/new/wp-content/uploads/2018/11/Banner_principa.jpg);
+    background-color: rgba(255, 255, 255, 1);
+}
+
 .slider {
     width: 98.8vw;
     margin-bottom: 20px;
+    z-index: -100;
+}
+
+.slider-car {
+    text-align: center;
+    /* max-width: 900px;
+    max-height: 630px; */
+    padding-top: 10vw;
+    padding-left: 14vw;
+}
+
+.back {
+    margin-top: -20px;
+    padding: 40px;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+}
+
+.he-300 {
+    height: 220px;
+}
+
+.valor div{
+    padding: 10px;
+    text-align: center;
+}
+
+.valor i{
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+}
+
+.choose {
+    color: var(--primary-color);
+}
+
+.choose i {
+    color: var(--secondary-color);
+}
+
+#contact-slider {
+    max-height: 800px;
+    max-width: 1500px;
+    background-image: url(http://qserviceexp.com/new/wp-content/uploads/2018/11/Banner_Contacto.jpg);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10%;
+    color: white;
+    text-align: center;
 }
 
 .button1{
@@ -36,8 +104,17 @@
     border: var(--background-bottom) solid 1px;
 }
 
+.button1:hover {
+    background-color: var(--primary-color);
+}
+
 .contact{
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-oy{
+    color: var(--orange-yellow);
 }
 
 form p{
@@ -66,17 +143,41 @@ a.maps{
 }
 
 footer {
-    margin-top: 20px;
     background-color: var(--background-bottom);
     color: white;
     padding: 15px;
     text-align: center;
 }
+
 footer p{
     padding-top: 10px;
 }
-footer a {
-    color: #00a79f;
+
+.social a{
+    height: 40px;
+    width: 40px;
+    line-height: 24px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 2px solid white;
+    padding: 5px;
+    color: white;
+    background-color: transparent;
+}
+
+.social a:hover{
+    color: var(--third-color);
+    border-color: var(--third-color);
+}
+
+.social i{
+    height: 25px;
+    width: 25px;
+}
+
+footer a{
+    color: var(--third-color);
 }
 
 footer a:hover {
