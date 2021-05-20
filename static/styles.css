@@ -17,6 +17,10 @@
     font-family: 'Bree';
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 .logo {
     padding: 10px;
     max-width: 140px;
@@ -34,8 +38,13 @@
     margin-right: 20px;
 }
 
+.menu-reservation {
+    text-align: right;
+    padding-right: 40px;
+}
+
 #slider {
-    height: 80vw;
+    height: 75vw;
     max-height: 949px;
     max-width: 1500px;
     background-image: url(http://qserviceexp.com/new/wp-content/uploads/2018/11/Banner_principa.jpg);
@@ -48,10 +57,9 @@
     z-index: -100;
 }
 
+
 .slider-car {
     text-align: center;
-    /* max-width: 900px;
-    max-height: 630px; */
     padding-top: 10vw;
     padding-left: 14vw;
 }
@@ -80,19 +88,95 @@
 
 .choose {
     color: var(--primary-color);
+    text-align: center;
 }
 
 .choose i {
     color: var(--secondary-color);
 }
 
+#about-us-slider{
+    height: 70vh;
+    max-width: 1500px;
+    background-image: url(http://qserviceexp.com/new/wp-content/uploads/2018/11/Img-Nosotros.jpg?id=7965);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5%;
+    color: white;
+    text-align: center;
+    background-position: 0% 62%;
+    background-size: cover;
+    /* background-repeat: no-repeat; */ 
+}
+
+#about-us-slider h1{
+    font-size: 3.5rem;
+}
+
+.about-us {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-us img {
+    height: 100px;
+}
+
+.destiny {
+    text-align: center;
+    padding: 20px;
+    color: var(--background-bottom);
+}
+
+.destiny img{
+    margin: 10px;
+}
 #contact-slider {
     max-height: 800px;
     max-width: 1500px;
     background-image: url(http://qserviceexp.com/new/wp-content/uploads/2018/11/Banner_Contacto.jpg);
     background-color: rgba(255, 255, 255, 1);
-    padding: 10%;
+    padding: 8%;
     color: white;
+    text-align: center;
+}
+
+#contact-slider h1, #reservation h1{
+    font-size: 3.2rem;
+}
+
+#contact-slider h2, #reservation h2{
+    font-size: 2.5rem;
+}
+
+#contact-slider h3, #reservation h3{
+    font-size: 2rem;
+}
+
+#contact-slider button{
+    font-size: 1.5rem;
+}
+
+.auto img{
+    max-width: 380px;
+}
+
+#road {
+    max-width: 1900px;
+    max-height: 250px;
+    background-image: url(http://qserviceexp.com/new/wp-content/uploads/2018/11/Img-Estadisticas.jpg?id=7934);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+
+#reservation {
+    max-width: 1900px;
+    max-height: 500px;
+    background-image: url(http://qserviceexp.com/new/wp-content/uploads/2018/11/Img-Reservaciones.jpg?id=7938);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5%;
+    color: var(--background-bottom);
     text-align: center;
 }
 
@@ -191,20 +275,39 @@ footer a:hover {
     .slider {
         width: 100vw;
     }
+    .auto {
+        display: none;
+    }
+    #road {
+        max-height: 400px;
+    }
 }
 
 @media (max-width: 768px) {
     a.maps{
         font-size: 16px;
     }
+    .auto {
+        display: none;
+    }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     a.maps{
         font-size: 16px;
+    }
+    .auto {
+        display: none;
     }
 }
 
 @media (max-width: 1200px) {
-    
+    .auto {
+        padding-top: 150px;
+    }
+    .auto img{
+        width: 300px;
+    }
 }
+
+
