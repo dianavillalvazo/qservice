@@ -130,6 +130,7 @@ p {
 .destiny img{
     margin: 10px;
 }
+
 #contact-slider {
     max-height: 800px;
     max-width: 1500px;
@@ -302,9 +303,12 @@ footer a:hover {
         font-size: 1.2rem;
     }
 
+    .destiny {
+        padding: 10px;
+    }
+
     .destiny img{
         margin: 10px 0;
-        width: 200px;
     }
 
     .he-300{

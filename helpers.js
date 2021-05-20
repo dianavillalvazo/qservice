@@ -2,11 +2,7 @@ let counts = document.querySelectorAll('.counter');
 
 function counter(){    
     let scrollTop = document.documentElement.scrollTop;
-    let scrollHeight = document.documentElement.scrollHeight;
     let altura = counts[0].offsetTop;
-    console.log(scrollTop)
-    console.log(altura-scrollTop)
-    console.log(scrollHeight)
 
     if(altura-scrollTop < 700){
 counts.forEach((count) => {
