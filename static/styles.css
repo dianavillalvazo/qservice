@@ -281,6 +281,26 @@ footer a:hover {
     #road {
         max-height: 400px;
     }
+
+    #contact-slider h1, #reservation h1{
+        font-size: 2.2rem;
+    }
+    
+    #contact-slider h2, #reservation h2{
+        font-size: 1.8rem;
+    }
+    
+    #contact-slider h3, #reservation h3{
+        font-size: 1.2rem;
+    }
+
+    #contact-slider button{
+        font-size: 1.2rem;
+    }
+
+    .he-300{
+        height: 280px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -299,6 +319,12 @@ footer a:hover {
     .auto {
         display: none;
     }
+    footer img{
+        height: 65px;
+    }
+    footer p{
+        font-size: 1.1rem;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -307,6 +333,9 @@ footer a:hover {
     }
     .auto img{
         width: 300px;
+    }
+    .he-300{
+        height: 250px;
     }
 }
 
