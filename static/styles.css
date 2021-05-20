@@ -282,6 +282,10 @@ footer a:hover {
         max-height: 400px;
     }
 
+    .about-us img{
+        height: 80px;
+    }
+
     #contact-slider h1, #reservation h1{
         font-size: 2.2rem;
     }
@@ -296,6 +300,11 @@ footer a:hover {
 
     #contact-slider button{
         font-size: 1.2rem;
+    }
+
+    .destiny img{
+        margin: 10px 0;
+        width: 200px;
     }
 
     .he-300{
